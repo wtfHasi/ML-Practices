@@ -1,0 +1,60 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+
+# Ignore package manager files
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+
+# Ignore Jupyter Notebook auto-generated output
+*.nbconvert.ipynb
+*.pyc
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore database and data files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.h5
+*.hdf5
+
+# Ignore generated model and training files
+checkpoint/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.joblib
+*.pkl
+
+# Ignore large and unnecessary Jupyter-related files
+*.sav
+*.npy
+*.npz
+
+# Ignore Jupyter Notebook outputs (optional)
+**/*-checkpoint.ipynb
